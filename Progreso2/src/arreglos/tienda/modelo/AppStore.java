@@ -41,6 +41,7 @@ public class AppStore {
         }
         return null;
     }
+
     public boolean comprar(String nombre, int cantidad){
         Juego j = buscarJuego(nombre);
         if(j != null){
